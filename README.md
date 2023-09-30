@@ -55,5 +55,27 @@ Camera2D+ provides a set of fundamental functions to help you create immersive v
     - If you set `horizontal` to true, it enables the cinematic effect on the horizontal axis.
     - To enable both horizontal and vertical cinematic effects, set `vertical` to true as well.
     - This function is great for creating cinematic moments in your game, adding a touch of professional cinematography.
+  
+6. ***tilt_position(tilt_x: float, tilt_y: float) -> void***:
+    - The tilt_position function instantly moves the camera by `tilt_x` on the X-axis and `tilt_y` on the Y-axis. It then smoothly returns to its original position, creating a bounce-like effect.
+    - This function is excellent for adding dynamic responses to your game's events. For example, you can use it to intensify the impact of a music beat or enhance the feedback for in-game actions.
+
+8. ***tilt_angle(tilt: float) -> void***:
+    - The `tilt_angle` function provides a similar effect to `tilt_position`, but instead of altering the camera's position, it changes the camera's angle.
+    - This function can be used to simulate dynamic camera adjustments in response to various game events. For instance, you can create a cinematic feel by adjusting the camera's angle during specific gameplay moments.
 
 These core functions provide you with the building blocks to implement captivating visual effects and camera behavior in your Godot projects using the Camera2D+ plugin. Feel free to experiment and combine these functions to achieve your desired results!
+
+## Exploring Additional Properties
+The Camera2D+ plugin offers various additional properties that you can manipulate through the Godot Inspector. These properties allow you to fine-tune and customize your camera's behavior to suit your game's specific needs. Feel free to experiment and have fun adjusting these settings to achieve the desired visual effects and camera behavior.
+
+### How to Use:
+1. ***Open the Godot Inspector***: In the Godot editor, select the Camera2D+ node in your scene. You will find a list of properties in the Inspector panel.
+
+2. ***Modify Properties***: Hover over the property names to view tooltips that provide brief descriptions of each property's purpose. Adjust the values of these properties to change how the Camera2D+ behaves in your game.
+
+3. ***Experiment Creatively***: Play around with different property values to achieve the desired camera effects. Whether it's tweaking the zoom level, adjusting smoothing parameters, or enabling cinematic mode, these properties offer you a wide range of creative possibilities.
+
+If you ever have questions or need more information about a specific property, don't hesitate to hover your mouse over the property name in the Inspector. A tooltip with a description will appear, helping you understand the function and purpose of that property.
+
+The Camera2D+ plugin empowers you to create dynamic and engaging camera experiences in your Godot projects. Enjoy exploring and customizing these properties to bring your game's visuals to life!
